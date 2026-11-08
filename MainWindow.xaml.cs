@@ -36,7 +36,7 @@ public sealed partial class MainWindow : Window
     static Border Card(UIElement c) => new Border { Child = c, Padding = new Thickness(16), CornerRadius = new CornerRadius(20), Background = B(Sf), BorderBrush = B(Bd), BorderThickness = new Thickness(1) };
     static StackPanel Page() => new StackPanel { Margin = new Thickness(24), MaxWidth = 900, Spacing = 12, HorizontalAlignment = HorizontalAlignment.Center };
     static Border Tile(string emoji, Color c, double size) => new Border { Width = size, Height = size, CornerRadius = new CornerRadius(16), Background = B(Mix(c, Sf, .8)), Child = new TextBlock { Text = emoji, FontSize = size / 2, HorizontalAlignment = HorizontalAlignment.Center, VerticalAlignment = VerticalAlignment.Center } };
-    static UIElement Ring(int pct, Color c, double size, double fs)
+    static FrameworkElement Ring(int pct, Color c, double size, double fs)
     {
         var g = new Grid { Width = size, Height = size };
         g.Children.Add(new ProgressRing { IsIndeterminate = false, Value = pct, Maximum = 100, Width = size, Height = size, Foreground = B(c), Background = B(Bd) });
