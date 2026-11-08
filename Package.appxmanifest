@@ -2,12 +2,12 @@
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap rescap">
   <!-- Reemplaza Name / Publisher / PublisherDisplayName con los valores de Partner Center -->
   <Identity Name="AandA-Apps.MyProgress-NEET" Publisher="CN=8684EC2D-F8BD-4139-AA7C-486A5209F63F" Version="1.0.0.0" />
-  <Properties><DisplayName>My Progress</DisplayName><PublisherDisplayName>AandA - Apps</PublisherDisplayName><Logo>Assets\StoreLogo.png</Logo></Properties>
+  <Properties><DisplayName>My Progress - NEET</DisplayName><PublisherDisplayName>AandA - Apps</PublisherDisplayName><Logo>Assets\StoreLogo.png</Logo></Properties>
   <Dependencies><TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0" /></Dependencies>
   <Resources><Resource Language="es-ES" /><Resource Language="en-US" /></Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="$targetentrypoint$">
-      <uap:VisualElements DisplayName="My Progress" Description="Study progress tracker" BackgroundColor="transparent" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png">
+      <uap:VisualElements DisplayName="My Progress - NEET" Description="Study progress tracker" BackgroundColor="transparent" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
